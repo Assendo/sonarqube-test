@@ -1,0 +1,218 @@
+#app{
+    width: 70%;
+    margin: auto;
+}
+.header{
+    background-color: #BB0000;
+    width:100%;
+    height:auto;
+    border-radius: 15px;
+    text-align: left;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+}
+.header img{
+    height: auto;
+    margin-right: 5px;
+}
+.sidebar-left{
+    float:left;
+    width:20%;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+}
+.main{
+    float:right;
+    width:80%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 9px;
+    border-color: #DD0000;
+    border-width: 3px;
+    border-style: solid;
+}
+.mainMonitoreo{
+    float:right;
+    width:100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 9px;
+    border-color: #DD0000;
+    border-width: 3px;
+    border-style: solid;
+}
+.main-login{
+    float:right;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 9px;
+    border-color: #DD0000;
+    border-width: 3px;
+    border-style: solid;
+    margin: 0 auto;
+}
+#login-username{
+    width: 37%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #DD0000;
+    border-radius: 4px;
+}
+#login-password{
+    width: 35%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #DD0000;
+    border-radius: 4px;
+}
+.login-box{
+    width:50%;
+    background-color: white;
+    padding: 1px;
+    margin: 0 auto;
+}
+.sidebar-left, .main{
+    min-height: 500px;			
+}
+.menu-title{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    padding: 3px;
+    background-color: #BB0000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+}
+.menu-option{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: #DD0000;
+    border-width: 3px;
+    border-style: solid;
+    padding: 2px;
+    margin: 1px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-option a{
+    text-decoration: none;
+    color: #BB0000;
+}
+.menu-option:hover{
+    background-color: #000095;
+
+}
+.menu-option a:hover{
+    text-decoration: none;
+    color: white;
+}
+.menu-exit{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    padding: 3px;
+    background-color: #000095;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+}
+.menu-exit a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.content{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+input[type=button]{
+    background-color: #CC5555;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background-color: #995555;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+.popup_inner {
+    position: absolute;
+    border-radius: 25px;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+    margin: auto;
+    background: white;
+  }
+.button_pag {
+	background-color: white;
+	color: #BB0000;
+	border-radius: 10px;
+	border: 2px solid #BB0000;
+  }
+.button_pag:hover{
+    background-color: #000095;
+
+  }
+.button_selpag {
+	background-color: grey;
+	color: #BB0000;
+	border-radius: 10px;
+	border: 2px solid #BB0000;
+  }

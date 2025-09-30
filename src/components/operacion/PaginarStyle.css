@@ -1,0 +1,19 @@
+.verde {
+  background-color: #4CAF50;
+}
+
+.plomo {
+  background-color: #9c9c9c;
+}
+
+.oculta{
+  display: none;
+}
+
+.ver{
+  display: inline;
+}
+
+.ocultapunto{
+  list-style:none
+}
